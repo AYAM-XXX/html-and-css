@@ -1,0 +1,246 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body,html{
+	height:100%;
+}
+main{
+width:100vw;
+max-width:100%;
+position:absolute;
+max-height:100%;
+height:100%;
+overflow:hidden;
+background-color:#8a4dcf;
+background-image:url(img/canva.jpg);
+background-size:100% 100%;
+background-position:center;
+z-index:-1000;
+}
+main section{
+	margin:0;
+	position:relative;
+	top:40%;
+	left:35%;
+	width:29%;
+	height:20%;
+	text-align:center;
+}
+main section h1{
+	font-size:6vw;
+	font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+   -webkit-text-stroke: 4px #FFF;
+	border-radius:20px;
+	width:130%;
+	padding:0;
+   color:rgba(0,0,0,0);
+  box-shadow: 29px 9px 116px -2px rgba(245,0,0,1);
+  border:10px double black;
+   animation:color 1s linear infinite;
+   
+}
+.bat{
+	width:249px;
+	height:249px;
+	position:absolute;
+	flex-wrap:wrap;
+	background-image:url(video/shadow.gif);
+	background-size:100% 100%;
+	background-position:center;
+	right:0%;
+	bottom:0;
+	z-index:-100;
+}
+.cat{
+	width:200px;
+	height:195px;
+	position:absolute;
+	flex-wrap:wrap;
+	background-image:url(video/cat.gif);
+	background-size:100% 100%;
+	background-position:center;
+	right:0%;
+	bottom:70%;
+	z-index:-100;
+}
+
+.codando{
+	width:180px;
+	height:180px;
+	position:absolute;
+	flex-wrap:wrap;
+	background-image:url(video/codando.gif);
+	background-size:100% 100%;
+	background-position:center;
+	right:45%;
+	bottom:0%;
+	z-index:-100;
+	border-radius:10px;
+}
+.girl{
+	width:256px;
+	height:256px;
+	position:absolute;
+	flex-wrap:wrap;
+	background-image:url(video/girl.gif);
+	background-size:100% 100%;
+	background-position:center;
+	right:80%;
+	bottom:65%;
+	z-index:-100;
+}
+.skeleton{
+	width:256px;
+	height:266px;
+	position:absolute;
+	flex-wrap:wrap;
+	background-image:url(video/skeleton.gif);
+	background-size:100% 100%;
+	background-position:center;
+	right:45%;
+	bottom:60%;
+	z-index:-100;
+}
+.haunter{
+	width:230px;
+	height:230px;
+	position:absolute;
+	flex-wrap:wrap;
+	background-image:url(video/haunter.gif);
+	background-size:100% 100%;
+	background-position:center;
+	right:80%;
+	bottom:0%;
+	z-index:-100;
+}
+
+	
+@keyframes color {
+  0%   {background-color: rgb( 255, 49, 49);}
+  10%   {background-color: rgb( 31, 81, 255);}
+  25%  {background-color: rgb( 255, 68, 204);}
+  50%  {background-color: rgb( 188, 19, 254);}
+  75%  {background-color: rgb( 57, 255, 20);}
+  100% {background-color: rgb( 255, 240, 31);}
+}
+
+@media screen and (max-width:1024px){ 
+	main section h1{
+		font-size:10vw;
+		width:210%;
+		
+	}
+main section{
+	left:24%;
+}
+.bat{
+	width:180px;
+	height:180px;
+}
+.cat{
+	width:150px;
+	height:150px;
+}
+.codando{
+	width:150px;
+	height:150px;
+	right:37%;
+}
+.haunter{
+	width:170px;
+	height:170px;
+	right:70%;
+}
+.skeleton{
+	width:160px;
+	height:160px;
+	right:33%;
+	bottom:70%;
+}
+.girl{
+	width:170px;
+	height:170px;
+	right:70%;
+	bottom:70%
+}
+
+
+}
+
+@media (min-height:800px) and (max-width:550px){
+	.bat{
+	width:150px;
+	height:150px;
+}
+.codando{
+	width:150px;
+	height:150px;
+	right:30%;
+	bottom:25%;
+}
+.haunter{
+	width:150px;
+	height:150px;
+	right:50%;
+}
+.girl{
+	width:120px;
+	height:120px;
+	right:70%;
+	bottom:70%
+}
+
+
+}
+@media screen and (min-height:1000px){
+
+.skeleton{
+	width:160px;
+	height:160px;
+	right:33%;
+	bottom:80%;
+}
+
+}
+@media screen and (max-width:580px){
+	.codando{
+	width:110px;
+	height:110px;
+	right:35%;
+	bottom:25%;
+}
+.haunter{
+	width:150px;
+	height:150px;
+	right:60%;
+}
+.bat{
+	width:140px;
+	height:140px;
+}
+
+.skeleton{
+	width:0;
+	height:0;
+	right:0;
+	bottom:0;
+}
+.girl{
+	width:150px;
+	height:150px;
+	right:50%;
+	bottom:70%
+}
+
+}
+@media screen and (max-width:280px){
+	.haunter{
+	width:150px;
+	height:150px;
+	right:50%;
+}
+}
+

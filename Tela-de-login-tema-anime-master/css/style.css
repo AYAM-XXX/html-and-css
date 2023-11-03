@@ -1,0 +1,194 @@
+*{
+  padding:0;
+  margin:0;
+  font-family:AllertaStencil-Regular;
+}
+body,html{
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+@font-face{
+	src:url(font/AllertaStencil-Regular.ttf);
+	font-family:AllertaStencil-Regular;
+}
+.center{
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+	
+}
+.header{
+	width:100%;
+	min-width:1280px;
+	height:70px;
+	background-color:rgba(83,66,190,0.2);
+	text-align:left;
+}
+.logo{
+	margin-left:50px;
+	padding-top:10px;
+	color:#fdf7e8;
+	font-size:25px;
+	 -webkit-text-stroke: 0.5px #cf01a0;
+      text-stroke: 0.5px #cf01a0;
+}
+
+
+.banner{
+	background-color:#ffb1ff;
+	height:90%;
+	min-width:1280px;
+	width:100%;
+	background-position: top 0px right 0px;;
+	background-image:url(imagens/fundo.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:60px solid rbga(30, 20, 82,0.5);
+}
+.artigo{
+	border-box:box-sizing;
+	width:100%;
+	min-width:1280px;
+		max-width:1500px;
+	height:75%;
+    background-color:#e5e5e5;
+    text-align:center;
+}
+.img{
+	width:200px;
+	height:250px;
+	background-image:url("imagens/seta.png");
+	bakcground-size:100% 100%;
+	background-position:center;
+	position:absolute;
+	right:42%;
+	top:71%;
+
+}
+.form{
+
+}
+.form fieldset{
+
+	width:30%;
+	height:80%;
+  position:absolute;
+  background-color:rgba(48, 37, 165,0.8);
+  border:10px solid rgba(249, 8, 101,0.4);
+  border-radius:10px;
+  top:5%;
+  right:10%;
+
+}
+.form fieldset legend{
+	font-size:35px;
+	font-weight:bold;
+	  text-align:center;
+	color:#fdf7e8;
+	font-size:35px;
+	 -webkit-text-stroke: 0.5px #cf01a0;
+      text-stroke: 0.5px #cf01a0;
+}
+.form fieldset h1{
+	padding-top:20px;
+	color:#fdf7e8;
+	font-size:35px;
+	 -webkit-text-stroke: 0.5px #cf01a0;
+      text-stroke: 0.5px #cf01a0;
+      padding-bottom:15px;
+}
+.form fieldset input[type="text"],input[type="password"]{
+	width:80%;
+	height:55px;
+	border-radius:10px;
+	border:0;
+	color:#0a0d30;
+	margin-left:7%;
+	font-size:20px;
+	border:3px solid rgba(249, 8, 101,0.4);
+	background-color:rgba(85, 19, 127,0.8);
+}
+.form fieldset input[type="text"],input[type="password"]:focus{
+	outline:0;
+}
+.form fieldset input[type="submit"]{
+	width:35%;
+	height:60px;
+  margin:100px 140px;
+  border:0;
+	background-image:url("imagens/botão.jpg");
+	background-position:center;
+	background-size:cover;
+	color:#0a0d30;
+	font-size:25px;
+	 -webkit-text-stroke: 0.5px #cf01a0;
+      text-stroke: 0.5px #cf01a0;
+}
+
+.icon{
+	width:300px;
+	height:294px;
+	background-image:url("imagens/icon.png");
+	bakcground-size:cover;
+	background-position:center;
+	position:absolute;
+	left:10%;
+	top:88%;
+
+}
+.icon2{
+	width:300px;
+	height:287px;
+	background-image:url("imagens/icon2.png");
+	bakcground-size:100% 100%;
+	background-position:center;
+	position:relative;
+	left:70%;
+	bottom:113%;
+
+}
+.text{
+	    color:#5a5958;
+		padding-top:100px;
+		
+}
+.text h1{
+  line-height: 500%;
+  font-size:40px;
+  color:#fdf7e8;
+	 -webkit-text-stroke: 0.5px #cf01a0;
+      text-stroke: 0.5px #cf01a0;
+}
+
+.text p{
+ text-align:justify;
+  font-size:20px;
+  margin:0 40px;
+  letter-spacing:7px;
+  padding-bottom:100px;
+}
+.footer{
+	width:100%;
+	min-width:1280px;
+	height:25%;
+	background-color:#191119;
+}
+.footer p{
+	font-size:35px;
+	color:#fdf7e8;
+padding-left:100px;
+padding-top:70px;
+}
+.footer .icon3{
+  width:144px;
+	height:120px;
+	background-image:url("imagens/icon3.png");
+	bakcground-size:100% 100%;
+	background-position:center;
+	position:absolute;
+	top:170%;
+	right:5%;
+}

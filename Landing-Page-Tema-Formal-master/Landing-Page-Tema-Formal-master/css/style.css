@@ -1,0 +1,214 @@
+*{
+	padding:0;
+	margin:0;
+    font-family:OpenSans-Normal;
+}
+body,html{
+	height:100%;
+/*     overflow-x: hidden;*/
+}
+.clear{
+	clear:both;
+}
+@font-face{
+	src:url('font/OpenSans-VariableFont_wdth,wght.ttf');
+	font-family:OpenSans-Normal;
+}
+@font-face{
+	src:url('font/OpenSans-Italic-VariableFont_wdth,wght.ttf');
+	font-family:OpenSans-Italic;
+}
+@font-face{
+	src:url('font/OpenSans-Light.ttf');
+	font-family:"OpenSans-Light";
+}
+.logo{
+	width:100%;
+	height: 15vh;
+	background-color:#010B02;
+	position:fixed;
+	font-family:OpenSans-Italic;
+	font-size:15px;
+	color:white;
+}
+.logoHidden{
+	width:100%;
+	height: 15vh;
+	background-color:#010B02;
+}
+.logo > h1{
+
+padding-left:2%;
+padding-top:1%;
+
+}
+.banner-conteiner{
+	width:100%;
+	height:85vh;
+	background-image:url(img/banner.jpg);
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	text-align:center;
+	overflow:hidden;
+	padding-bottom:16px;
+}
+.text-banner{
+ font-size: 230%;
+ text-align:justify;
+ padding-top:10%;
+ color:#fffdd0;
+}
+.article-conteiner{
+	width:100%;
+    height:30vh;
+	overflow:hidden;
+	background-color:#010B02;
+	font-family:"OpenSans-Light";
+	text-align:center;
+	font-size:105%;
+	font-style:italic;
+	color:#fffdd0;
+}
+
+.article-conteiner p{
+	text-align:justify;
+
+	margin:0 30px;
+}
+.Produtos-conteiner{
+
+	width:100%;
+	height:auto;
+	background-image:url(img/fundoVendas.jpg);
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+    text-align:center;
+
+}
+
+.box-1,.box-2,.box-3{
+	width:30%;
+	box-sizing:content-box;
+	height:45vh;
+	float:left;
+	margin:10vh 1%;
+	border-radius:15px;
+	margin-left:calc(100% - 98%);
+	background-color:rgba(255,255,255,0.3);
+}
+
+.img-1{
+     width:85%;
+     height:90%;
+     margin:0 auto;
+	background-image:url(img/crown-1.png);
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.img-2{
+     width:85%;
+     height:90%;
+     margin:0 auto;
+	background-image:url(img/crown-2.png);
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.img-3{
+     width:85%;
+     height:90%;
+     margin:0 auto;
+	background-image:url(img/crown-3.png);
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.box-1 h1,.box-2 h1,.box-3 h1{
+	font-size: 250%;
+    color:#fffdd0;
+	font-style:bold;
+}
+.box-1 p,.box-2 p,.box-3 p{
+    font-size: 120%;
+    text-align:left;
+    padding-top:2%;
+    font-style:italic;
+    font-weight:bold;
+    color:#fffdd0;
+}
+
+input[type="submit"]{
+	width:30%;
+	height:6vh;
+	position:relative;
+	bottom:10%;
+	background-color:red;
+	font-size: 120%;
+	color:#fffdd0;
+	border-radius:10px;
+}
+
+/*-----------------------RESPONSIVO------------------------*/
+@media screen and (max-width:397px){
+	.banner-conteiner{
+		overflow-x:hidden;
+	}
+}
+@media screen and (max-width:310px){
+	.banner-conteiner{
+		overflow-x:hidden;
+		height:75vh;
+	}
+	.text-banner{
+		font-size:170%;
+	}
+}
+@media screen and (max-width:810px){
+	.logoHidden{
+	width:100%;
+	height: 10vh;
+	background-color:#010B02;
+}
+.logo{
+	width:100%;
+	height: 10vh;
+	background-color:#010B02;
+	position:fixed;
+	font-family:OpenSans-Italic;
+	font-size:20px;
+	text-align:center;
+	color:white;
+}
+.logo > h1{
+
+padding-top:2vh;
+
+}
+}
+@media screen and (max-width:800px){
+	.box-1,.box-2,.box-3{
+     width:45%;
+     height:30vh;
+	}
+	.box-3{
+		display:inline-block;
+		float:none;
+		margin:1vh 1%;
+	}
+}
+@media screen and (max-width:455px){
+	.box-1,.box-2,.box-3{
+     width:80%;
+     height:40vh;
+     display:inline-block;
+	 float:none;
+	 margin:1vh 1%;
+	}
+}
+
+	
